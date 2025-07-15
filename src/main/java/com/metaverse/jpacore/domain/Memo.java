@@ -14,4 +14,16 @@ public class Memo {
 
     @Column(length = 500)
     private String contents;
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public void setContents(String contents) {
+        this.contents = contents;
+    }
 }
